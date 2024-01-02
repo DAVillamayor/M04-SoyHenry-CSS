@@ -1,0 +1,129 @@
+/* Reset de CSS */
+
+/* Box-sizing border-box por defecto para todos los elementos */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer márgenes y relleno a 0 para la mayoría de los elementos */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+blockquote,
+figure,
+figcaption,
+pre,
+code,
+fieldset,
+legend,
+textarea,
+input,
+button,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer estilos de fuente y tamaño a 1rem para la compatibilidad con el rem */
+html {
+  font-size: 16px;
+}
+
+/* Evitar la propagación de estilos de lista en navegadores heredados */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Ajuste de estilos por defecto para algunos elementos */
+img,
+iframe,
+embed,
+object,
+audio,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Evitar la decoloración de enlaces en navegadores heredados */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Establecer estilos de tabla a 'collapse' para evitar problemas en bordes de tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Establecer la dirección de escritura por defecto a izquierda a derecha */
+html,
+body {
+  direction: ltr;
+}
+
+
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* Restablecer estilos de enlace para botones y otros elementos interactivos */
+button,
+input {
+  overflow: visible;
+}
+
+/* Solucionar problemas de renderizado en iOS */
+button,
+select {
+  text-transform: none;
+}
+
+/* Restablecer el tamaño de la fuente para los elementos de formulario */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+/* Normalizar estilos de formulario */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* Corregir el desajuste de altura en los navegadores modernos */
+textarea {
+  overflow: auto;
+}
+
+/* Ajustes específicos para algunos navegadores y dispositivos */
+/* Agregar más estilos de reset según sea necesario */
+

@@ -1,0 +1,83 @@
+#bt-color{
+    background-color: rgb(228, 3, 3);
+}
+
+.fondo{
+    background-color: rgb(57, 174, 57);
+}
+
+.bars{
+   color: darkred;
+}
+
+.text-container{
+    display: flex;  
+    flex-direction: column; 
+    align-items: center;
+    font-size: 2em;
+    
+}
+
+.table-cards{
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    margin:auto;
+    justify-content: space-around;
+}
+
+.manga{
+    width:20em;
+    height:  23em;
+}
+
+#cards{
+    background-color: rgba(255, 0, 0, 0.741);
+    border: 0.5vw solid rgba(57, 0, 0, 0.413);
+    width: 25vw;
+    padding: 1em;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:1em;
+    flex-wrap: wrap;
+} 
+
+#photo-cards{
+    background-color: rgba(4, 56, 0, 0.705);
+    width:fit-content;
+    padding: 1em ;
+    display:flex;
+    justify-content: center;
+} 
+
+#video-cards{
+    background-color: rgba(255, 0, 0, 0.741);
+    border: 0.5vw solid rgba(57, 0, 0, 0.413);
+    width: 45vw;
+    padding: 1em;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:1em;
+    flex-wrap: wrap;
+} 
+
+#title-container{
+    border: 5px solid rgb(7, 66, 46);
+    background-color: rgb(10, 88, 62);
+    width: 70vw;
+    margin: auto;
+    margin-top: 1.5em;
+    padding: 2em;     
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-style{
+    font-size: 1.2em;
+    margin: 2vw;
+}
